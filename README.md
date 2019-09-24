@@ -43,6 +43,8 @@ To run the development server after installation:
 # run server
 $ export FLASK_CONFIG=development
 $ export FLASK_APP=run.py
+$ flask db migrate
+$ flask db upgrade
 $ flask run
 ```
 
